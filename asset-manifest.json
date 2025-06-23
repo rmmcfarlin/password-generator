@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/rmmcfarlin/password-generator/static/css/main.0633019c.css",
+    "main.js": "/rmmcfarlin/password-generator/static/js/main.500a84ab.js",
+    "static/js/453.c0fb15b6.chunk.js": "/rmmcfarlin/password-generator/static/js/453.c0fb15b6.chunk.js",
+    "static/media/logo.svg": "/rmmcfarlin/password-generator/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/rmmcfarlin/password-generator/index.html",
+    "static/media/icon-copy.svg": "/rmmcfarlin/password-generator/static/media/icon-copy.c00fcf20217a486689713679f8ec9e05.svg",
+    "static/media/icon-arrow-right.svg": "/rmmcfarlin/password-generator/static/media/icon-arrow-right.6f919c9ee4525a9948a9e391ae915648.svg",
+    "static/media/icon-check.svg": "/rmmcfarlin/password-generator/static/media/icon-check.c0e2bb9365c6d9e8bbe438893c42c289.svg",
+    "main.0633019c.css.map": "/rmmcfarlin/password-generator/static/css/main.0633019c.css.map",
+    "main.500a84ab.js.map": "/rmmcfarlin/password-generator/static/js/main.500a84ab.js.map",
+    "453.c0fb15b6.chunk.js.map": "/rmmcfarlin/password-generator/static/js/453.c0fb15b6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0633019c.css",
+    "static/js/main.500a84ab.js"
+  ]
+}
