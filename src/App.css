@@ -50,7 +50,7 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-image: linear-gradient(to top right, var(--grey900, #14131B))
+  background-color: var(--grey900);
 
 }
 
