@@ -54,10 +54,6 @@ body {
 
 }
 
-.App {
-  
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -217,8 +213,9 @@ input[type="range"]::-moz-range-track {
   width: 100%;
 }
 
-
-
+.checkbox {
+  position: relative;
+}
 label {
   color: var(--grey200);
   font-size: 1.5rem;
@@ -235,14 +232,90 @@ input[type="checkbox"] {
 }
 
 input[type="checkbox"]:checked {
-  background: var(--green200);
+  background-image: url(./assets/images/icon-check.svg);
+  background-repeat: no-repeat;
+  background-color: var(--green200);
   border: 2px solid var(--green200);
 
 }
 
 .checkIcon {
-  margin-right: -20px;
-  display: none;
+
+ display: none;
 }
 
 
+
+
+
+/* Mobile */
+
+@media screen and (max-width: 593px) {
+
+  body {
+      height: 100vh;
+      align-items: center;
+  }
+
+  .output {
+    height: 4rem;
+  }
+  .output, .selections {
+
+    width: 91.467vw;
+    height: fit-content;
+    padding: 1rem;
+  }
+
+  .output p {
+    font-size: 1.5rem;
+  }
+
+  h1 {
+    font-size: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  label {
+    font-size: 1rem;
+    line-height: 20px;
+  }
+
+  .checkbox {
+    display: flex;
+    align-items: center;
+    margin-top: 1rem;
+  }
+
+  input[type="checkbox"] {
+    margin: 0;
+  }
+
+  .strength p {
+    font-size: 1rem;
+  }
+
+  .rating {
+    align-items: center;
+  }
+
+
+  .generate-button {
+    width: 82.933vw;
+    padding: 18px 0;
+  }
+
+  .generate-button p {
+    font-size: 1rem;
+    margin-right: 1rem;
+  }
+}
+
+@media screen and (max-height: 675px) {
+
+  body {
+    height: fit-content;
+    padding: 3rem 0;
+  }
+  
+}

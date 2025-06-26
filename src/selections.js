@@ -67,26 +67,26 @@ const PasswordSelections =  () => {
             <form>
                 <input type="range" id="lengthSlider" min="5" max="15" value={length} onChange={handleChange}></input>
 
-                 <div>
+                 <div className="checkbox"> 
                     <img src={checkIcon} style={{width:"20px", height:"20px"}} className="checkIcon"></img>
                     <input type="checkbox" id="lowercase" checked={lowercase} onChange={selectLowercase}></input>
                     <label for="lowercase">Include Lowercase Letters</label>
                 </div>
 
-               <div>
-                <img src={checkIcon} style={{width:"20px", height:"20px"}} className="checkIcon"></img>
+               <div className="checkbox">
+                <img src={checkIcon} style={{width:"20px", height:"20px"}} className={"checkIcon"}></img>
                 <input type="checkbox" id="uppercase" checked={uppercase} onChange={selectUppercase}></input>
                 <label for="uppercase">Include Uppercase Letters</label>
                </div>
 
                
-               <div>
+               <div className="checkbox">
                 <img src={checkIcon} style={{width:"20px", height:"20px"}} className="checkIcon"></img>
                  <input type="checkbox" id="numbers" checked={numbers} onChange={selectNumbers}></input>
                  <label for="numbers">Include Numbers</label>
                </div>
 
-                <div>
+                <div className="checkbox">
                     <img src={checkIcon} style={{width:"20px", height:"20px"}} className="checkIcon"></img>
                   <input type="checkbox" id="symbols" checked={symbols} onChange={selectSymbols}></input>
                   <label for="symbols">Include Symbols</label>

@@ -20,8 +20,6 @@ const specialCharacters = [
 
 function generatePassword (passwordLength, lowercaseCheck, uppercaseCheck, numCheck, symbolCheck) {
 
-    console.log("check")
-
     let selectedChars = []
     
     if (lowercaseCheck) {
