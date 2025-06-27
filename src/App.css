@@ -17,6 +17,8 @@
 
 :root {
 
+  --progress: 0%;
+
   /* colors */
 
   --grey950: #08070B;
@@ -196,7 +198,7 @@ input[type=range]::-webkit-slider-thumb {
 }
 
 input[type="range"]::-webkit-slider-runnable-track {
-  background: linear-gradient(var(--grey850)) 50%/100% 8px no-repeat;
+  background: linear-gradient(to right, var(--green200) 0%, var(--green200) var(--progress), var(--grey850) var(--progress), var(--grey850) 100% ) 50%/100% 8px no-repeat;
   width: 100%;
 }
 

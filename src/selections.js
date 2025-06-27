@@ -31,6 +31,11 @@ const PasswordSelections =  () => {
 
     const handleChange = (e) => {
         setLength(e.target.value)
+        let sliderRatio = (e.target.value - 5) * 10
+        console.log(sliderRatio)
+
+        const root = document.documentElement;
+        root.style.setProperty('--progress', `${sliderRatio}%`)
     }
 
     const getPassword = () => {
